@@ -1,0 +1,16 @@
+{
+  "predicate": "Any",
+  "rules": [
+    {
+      "field": "subject",
+      "predicate": "contains",
+      "value": "urgent"
+    },
+    {
+      "field": "subject",
+      "predicate": "contains",
+      "value": "important"
+    }
+  ],
+  "actions": ["mark_as_read", "move"]
+}

@@ -1,0 +1,21 @@
+{
+    "predicate": "All",
+    "rules": [
+        {
+            "field": "from",
+            "predicate": "contains",
+            "value": "GitHub <noreply@github.com>"
+        },
+        {
+            "field": "subject",
+            "predicate": "contains",
+            "value": "password"
+        },
+        {
+            "field": "received",
+            "predicate": "greater than",
+            "value": "2024-10-01"
+        }
+    ],
+    "actions": ["mark_as_read", "move"]
+}
