@@ -1,7 +1,6 @@
 # Gmail Processor
 
 A standalone Python script that integrates with the Gmail API and performs rule-based operations on emails.
-Features
 
 ## Prerequisites
 1. Python 3.x
